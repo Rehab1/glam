@@ -1,0 +1,62 @@
+.navbar
+{
+  margin-left:7%;
+  margin-right:13%
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-left: 7px;
+  margin-left: 10px;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color:#c9ae59 ;
+}
+
+@media (min-width:992px){
+  nav ul
+  {
+        margin-left: 17%;
+   
+  }
+   nav ul li {
+      margin: 0 3px;
+      padding: 0
+       }
+}
+@media (max-width:991px){
+   nav ul li a .x {
+     padding-top: 10px
+}
+   .navbar-collapse {
+        position: absolute;
+       top:60px;
+           }
+      .navbar-collapse ul
+      {
+           border: 1px solid gray;
+           width:300%;
+          padding-left: 8px;
+      }
+       .navbar-collapse ul li a 
+       {
+             padding:3px;
+             
+             padding-left: 3px
+       }
+}
+.carousel-caption {
+  bottom:35%;
+  text-transform: uppercase
+}
+
+.card
+{
+ 
+}
+
+
+
+
+
+
+
